@@ -4,7 +4,6 @@ A machine learning learning playground
 
 ## Installation
 
-
 Install poetry:
 
 `pip install poetry`
@@ -17,6 +16,10 @@ Install dependencies via poetry:
 
 `poetry install`
 
+
+Or
+
+`pip install -r requirements.txt`
 
 ## Usage
 
