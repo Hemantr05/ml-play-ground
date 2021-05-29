@@ -8,6 +8,7 @@ authors = ["hemantr05 <basketballlife600@gmail.com>"]
 python = "^3.7"
 numpy = "^1.20.3"
 pandas = "^1.2.4"
+matplotlib = "^3.2.1"
 scikit-learn = "^0.24.2"
 streamlit = "^0.62.1"
 

@@ -4,3 +4,4 @@ scikit-learn==0.24.2
 streamlit==0.62.1
 pytest==5.2
 openpyxl==3.0.7
+matplotlib==3.2.1
