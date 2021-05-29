@@ -25,7 +25,7 @@ Or
 
 Run the server
 
-`streamlit run`
+`streamlit run app.py`
 
 
 Go to web browser and type:
@@ -66,3 +66,10 @@ Go to web browser and type:
     - [x] PCA
     - [ ] Table (dataframe from custom dataset)
     - [ ] Maps
+
+
+## Resource:
+
+For deployment:
+
+https://towardsdatascience.com/a-quick-tutorial-on-how-to-deploy-your-streamlit-app-to-heroku-874e1250dadd
