@@ -6,9 +6,14 @@ authors = ["hemantr05 <basketballlife600@gmail.com>"]
 
 [tool.poetry.dependencies]
 python = "^3.7"
+numpy = "^1.20.3"
+pandas = "^1.2.4"
+scikit-learn = "^0.24.2"
+streamlit = "^0.62.1"
 
 [tool.poetry.dev-dependencies]
 pytest = "^5.2"
+openpyxl = "^3.0.7"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
