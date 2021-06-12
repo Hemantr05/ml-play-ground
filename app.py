@@ -1,13 +1,13 @@
 import os
-import numpy as np 
-import pandas as pd 
+import numpy as np
+import pandas as pd
 import streamlit as st
 
 from sklearn.model_selection import train_test_split
-from utils import (get_dataset, 
+from utils import (get_dataset,
                     get_classifier,
                     get_metrics,
-                    add_preprocess_parameter_ui, 
+                    add_preprocess_parameter_ui,
                     add_model_parameter_ui,
                     visualize)
 
@@ -15,12 +15,14 @@ st.title("Machine Learning Playground")
 
 
 #To load custom dataset
-#data = st.sidebar.file_uploader("Upload")
-#extn = os.path.splitext(data)
-#if extn == '.csv':
-#    df = pd.read_csv(data)
-#elif extn == '.xlsx':
-#    df = pd.read_excel(data)
+
+data = st.sidebar.file_uploader("Upload")
+extn = os.path.splitext(data)
+if extn == '.csv':
+    df = pd.read_csv(data)
+elif extn == '.xlsx':
+    df = pd.read_excel(data)
+
 #st.write("""### %s Metadata """ %(data))
 #st.write("Shape of dataset: ", df.shape)
 #st.dataframe(df)
